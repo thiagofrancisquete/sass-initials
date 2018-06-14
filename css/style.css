@@ -51,9 +51,15 @@ li {
   width: 100%;
 }
 
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 #main-nav li {
   float: left;
-  width: 14%;
+  width: 16.66667%;
 }
 
 #main-nav a {
@@ -64,10 +70,8 @@ li {
   text-align: center;
 }
 
-#main-nav ul:after {
-  content: "";
-  display: block;
-  clear: both;
+#main-nav a:hover {
+  background-color: #333;
 }
 
 section h1 {
@@ -137,4 +141,37 @@ section h1 {
   font-size: 20px;
   max-width: 500px;
   margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+
+#services li {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.33333%;
+}
+
+#services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+
+#services a {
+  text-decoration: none;
+  color: #032f3e;
+  font-weight: bold;
+}
+
+#services a:hover {
+  color: red;
+}
+
+#services ul:after {
+  content: "";
+  display: block;
+  clear: both;
 }
