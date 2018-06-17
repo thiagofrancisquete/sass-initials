@@ -71,7 +71,7 @@ li {
 }
 
 #main-nav a:hover {
-  background-color: #333;
+  background-color: #054d65;
 }
 
 section h1 {
@@ -167,7 +167,7 @@ section h1 {
 }
 
 #services a:hover {
-  color: red;
+  color: #3e1203;
 }
 
 #services ul:after {

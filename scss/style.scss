@@ -19,7 +19,7 @@
     display: block;
     text-align: center;
     &:hover {
-      background-color: #333;
+      background-color: lighten($color: $deepBlue, $amount: 8);  
     }
   }
 }
@@ -61,7 +61,7 @@ section h1 {
     color: $deepBlue;
     font-weight: bold;
     &:hover {
-      color: red;
+      color: complement($color: $deepBlue);
     }
   }
   ul {
