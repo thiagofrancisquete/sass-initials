@@ -30,3 +30,13 @@
     clear: both;
   }
 }
+
+@mixin grid($cols, $margem) {
+  float: left;
+  margin-right: $margem;
+  margin-bottom: $margem;
+  width: ((100% - (($cols - 1) * $margem)) / $cols);
+  &:nth-child(#{$cols}n){
+    margin-right: 0;
+  }
+}
